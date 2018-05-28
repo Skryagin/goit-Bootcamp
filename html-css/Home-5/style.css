@@ -1,0 +1,298 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#body{
+    width: 1200px;
+    margin: auto;
+}
+.title {
+
+    /*background-color: #ff605b;*/
+    /*width: 100%;*/
+}
+.p {
+    text-align: right;
+    margin-top: 20px;
+   padding-bottom: 20px;
+}
+.pic0{
+    margin-top: 40px;
+}
+.a {
+    text-align: right;
+    margin-left: 430px;
+    color: cadetblue;
+    margin-right: 20px;
+    font-size: 15px;
+    /*padding-bottom: 20px;*/
+    /*padding-right: 0;*/
+    text-decoration: none;
+}
+
+.a1 {
+    text-align: right;
+    padding-right: 0;
+    margin-right: 40px;
+    font-size: 15px;
+    text-decoration: none;
+}
+a1:hover /* при наведение мышки на ссылку она будет подчеркиваться, т.к. стоит параметр underline */
+{
+    text-decoration: underline;
+}
+.mart {
+    padding-top: -100px;
+    text-decoration: none;
+    /*background-color: #61a8ff;*/
+    /*float: left;*/
+
+    /*text-align: left;*/
+    /*margin: 0px 0 0 10px;*/
+}
+.M {
+    width: 50%;
+    color: cadetblue;
+    margin-left: 50px;
+    text-decoration: none;
+
+}
+a{
+    text-decoration: none;
+}
+
+.btn{
+    width: 1500px;
+    min-height: 599px;
+    /*display: inline-block;*/
+    margin-top: 20px;
+    background-image: url("img/5.jpg" ) ;
+    
+}
+.aff{
+
+    margin-top: -115px;
+    /*!*padding: auto;*!*/
+    display: block;
+    width: 1500px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+    position: center;
+
+/*padding-left: 320px;*/
+    /*transform: translateX(-50%) translateY(-50%);*/
+}
+.sity{
+    display: block;
+    margin-top: -30px;
+    /*!*padding: auto;*!*/
+/*margin-left: 100px;*/
+    text-align: center;
+    font-size: 25px;
+    color: white;
+
+    /*!*left: 50%;*!*/
+    /*!*right: 50%;*!*/
+    /*!*transform: translateX(-50%) translateY(-50%);*!*/
+}
+.btn-l{
+    /*margin: auto;*/
+    margin-left: 250px;
+    margin-top: 226px;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    color: white;
+    background-color: #5dc7a2;
+    /*left: 150%;*/
+    /*right: 150%;*/
+    /*transform: translateX(-50%) translateY(-50%);*/
+}
+.btn-r{
+    margin-left: 1255px;
+    margin-top: -38px;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    color: white;
+    background-color: #5dc7a2;
+}
+
+.mine{
+    width: 100%;
+}
+
+.card, .card1 {margin-left: 50px;
+    display: inline-block;
+    width: 255px;
+    height: 333px;
+    /*background-color: yellow;*/
+    position: relative;
+    /*margin: 20px auto;*/
+}
+
+.pic, .pic1, .pic2, .pic3 {
+    display: block;
+    margin-bottom: 0;
+}
+
+.info {
+    font-size: 0;
+}
+.title2{
+    text-align: center;
+    /*background-color: #ff605b;*/
+    padding:0px 0px 10px 0px;
+    width: 100%;
+    font-size: 30px;
+    /*position: center;*/
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+/*.lin0{*/
+    /*position: absolute;*/
+/*}*/
+ .lin0, .lin::after {
+
+     /*margin-top: 50px;*/
+    width: 100px;
+    height: 4px;
+    top: 5px;
+     margin: auto;
+     /*margin-left: 750px;*/
+     /*margin-bottom: 50px;*/
+     /*left: 50%;*/
+     /*right: 50%;*/
+     /*transform: translateX(-50%) translateY(-50%);*/
+
+
+    background-color: #4ac797;
+    /*z-index: 2;*/
+}
+.name {
+    background-color: #000000;
+    color: #fff;
+    display: inline-block;
+    width: 80%;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 16px 0 16px 10px;
+    text-align: center;
+}
+
+.price {
+    background-color: grey;
+    color: #fff;
+    display: inline-block;
+    width: 20%;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 16px 0;
+    text-align: center;
+
+}
+
+.icons {
+    width: 170px;
+    /*border: 2px solid #ffffff;*/
+    font-size: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    opacity: .3 ;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    /*background-color: yellow;*/
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 10px;
+
+}
+
+.box:nth-child(3) {
+
+    margin-right: 0;
+
+}
+
+.overly {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 282px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 10px solid rgba(255, 255, 255, 0.75);
+
+}
+
+.basket {
+    opacity: .5 ;
+    height: 50px;
+    /*background-color: yellow;*/
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 8px;
+
+}
+
+.card:hover > .overly {
+     display: block;
+ }
+.card1:hover > .overly {
+    display: block;
+}
+
+.box:hover, .basket:hover {
+    opacity: 1 ;
+    background-color: #4ac797;
+}
+.card:hover .name{
+    background-color: #5ec9a5;
+}
+.card:hover, .basket:hover{
+    /*opacity: .3 ;*/
+    background-color: #4ac797;
+
+    color: #160a1a;
+}
+.card:hover .price{
+    background-color: #a3c7c3;
+}.card1:hover .name{
+    background-color: #5ec9a5;
+}
+.card1:hover, .basket:hover{
+
+    background-color: #4ac797;
+    color: #160a1a;
+}
+.card1:hover .price{
+    background-color: #a3c7c3;
+    /*opacity: .3 ;*/
+}
+.cards{
+   position: center;
+    /*display: inline-block;*/
+    width: 1300px;
+padding-top: 50px;
+    margin: auto;
+}
+.menu{
+    width: 100%;
+    margin: auto;
+}
+/*.card1{*/
+    /*margin-left: 100px;*/
+
+/*}*/

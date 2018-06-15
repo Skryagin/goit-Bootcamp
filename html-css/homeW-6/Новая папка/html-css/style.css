@@ -1,0 +1,9 @@
+.tab{
+    width: 1000px;
+    position: center;
+    flex:content-box;
+    margin: 100px;
+    color: red;
+    background-color: green;
+
+}

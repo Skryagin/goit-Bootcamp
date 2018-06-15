@@ -87,11 +87,11 @@ p {
 
 }
 
-.amaz {
+.line {
     display: block;
-    margin-top: 0.5rem;
-    margin-bottom: 2rem;
-    /*padding-left: 10rem;*/
+    padding-top: 0.5rem;
+    /*padding-bottom: 2rem;*/
+    padding-left: 0rem;
     text-align: center;
     font-family: "AdineKirnbergRegular", sans-serif;
     font-size: 2rem;
@@ -106,32 +106,23 @@ p {
     font-family: "AdineKirnbergRegular", sans-serif;
     font-size: 2rem;
 }
-
-.line {
-    position: absolute;
-    top: 22%;
-    left: 45%;
-    margin: 50px 0 0 50px;
-    margin-top: 4rem;
-    background-color: red;
-    width: 3rem;
-    height: 0.02rem;
-    padding-bottom: 0.2rem;
-}
-
-.line1 {
-    position: absolute;
-    top: 100%;
-    left: 45%;
-    margin: 50px 0 0 50px;
-    /*margin-top: 2rem;*/
-    /*margin-left: 47rem;*/
+ .amaz1::after {
+    content: '';
+    width: 3.75rem;
+    height: 0.1875rem;
+    background-color: #f38181;
     display: block;
-    height: 0.2rem;
-    background-color: red;
-    width: 3rem;
-    padding-bottom: 0.009rem;
+    margin: 0.625rem auto 0;
 }
+.line::after {
+    content: '';
+    width: 3.75rem;
+    height: 0.1875rem;
+    background-color: #f38181;
+    display: block;
+    margin: 0.625rem auto 0;
+}
+
 
 .ico-img {
     display: flex;
